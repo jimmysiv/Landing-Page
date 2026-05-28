@@ -3,6 +3,16 @@ body{
     margin: 0;
 }
 
+button{
+    background-color: #3882F6;
+    padding: 8px 30px 8px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
 a{
     text-decoration: none;
     color:  #E5E7EB;
@@ -13,7 +23,7 @@ ul{
     list-style: none;
 }
 
-.header, h2{
+.header h2{
     color: white;
     font-size: 24px;
 }
@@ -29,3 +39,35 @@ ul{
     display: flex;
     gap: 40px;
 }
+
+.top-part{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 200px 200px 200px;
+}
+
+.image-placeholder{
+    background-color: grey;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-part h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 350px;
+}
+
+.top-part p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 650px;
+}
+
