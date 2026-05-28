@@ -71,3 +71,35 @@ ul{
     width: 650px;
 }
 
+.middle-images div{
+    border: 5px solid;
+    border-color: #3882F6;
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoH1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px;
+}
+
+.middle-images p{
+    width: 250px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.middle-part{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+
