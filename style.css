@@ -103,3 +103,23 @@ justify-content: center;
 gap: 50px;
 }
 
+.testimonials{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px 300px 100px 300px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.testimonials h2{
+    text-align: right;
+    margin-top: 0; 
+
+}
+
+.testimonials p{
+    margin-bottom: 0;
+    font-style: italic;
+}
+
